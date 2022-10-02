@@ -15,7 +15,7 @@ app.get("/", (req,res,next) => {
 
 //cors
 //localhost:3000/example
-app.use("/example", router);
+app.use("/", router);
 
 //add middleware to handle errors
 app.use((req,res,next)=> {
@@ -33,5 +33,7 @@ app.use((error, req,res,next)=> {
     });
 }
 );
+
+
 
 module.exports = app;
