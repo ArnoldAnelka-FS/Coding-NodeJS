@@ -1,0 +1,13 @@
+Test with Jest
+
+Testing the Math Object
+
+Add
+Subtract
+Divide
+Multiply
+
+// use math function
+Advanced Math
+square root
+max
